@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:Source Sans 3;
+ 
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:16px 0px;
+    border-bottom:2px solid #C6C6C6;
+    margin-bottom: 8px;
+    max-width:375px;
+}
+
+
+
+.user-img{
+    border-radius:50%;
+     width:34px;
+     height:34px; 
+     padding:8px
+}
+
+
+#oldagram{
+    width:127px;  
+}
+
+section{
+    margin:25px 23px;
+    max-width:375px;
+}
+
+.flex-h{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-weight:700;
+    margin-bottom:0px;
+}
+.location{
+    font-weight:300;
+     margin-top:0px;
+}
+.p-container{
+    margin-left:7px;
+
+}
+.img-post{
+   max-width:375px;
+  
+}
+
+section{
+    margin:0px;
+}
+
+.like-section{
+    margin-left:10px;
+    margin-top:20px;
+}
+.icon-l{
+    width:23px;
+    padding:12px 2px
+}
+.icon-l:hover{
+    opacity: 0.5;
+}
+
+.last-sec{
+      margin-top:2px;
+     margin-bottom:2px;
+     margin-left:10px; 
+}
+
+.last-sec span , .likes {
+    font-weight:700;
+}
+
+.heart-animation {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Allow clicks to go through the heart element */
+}
+
+.heart-img {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    /* Add any other styles or animations for the heart image */
+}
